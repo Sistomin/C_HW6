@@ -21,9 +21,9 @@ int[] GetArrayFromString(string stringArray) //метод в котором ра
 int GetCountPositiveElements(int[] numResult) // метод который делает проверку больше ли нуля число в массиве numResult
 {
 int count = 0;
-foreach (var item in numResult)
+foreach (int arrNums in numResult)
 {
-    if (item > 0) count++;
+    if (arrNums > 0) count++;
 }
 return count;
 }
