@@ -18,7 +18,7 @@ int[] GetArrayFromString(string stringArray) //метод в котором ра
     return numResult; // возращаем массив чисел numResult
 }
 
-int GetCountPositiveElements(int[] numResult) // метод который делает проверку больше нуля число в массиве numResult
+int GetCountPositiveElements(int[] numResult) // метод который делает проверку больше ли нуля число в массиве numResult
 {
 int count = 0;
 foreach (var item in numResult)
@@ -27,6 +27,3 @@ foreach (var item in numResult)
 }
 return count;
 }
-
-
-
